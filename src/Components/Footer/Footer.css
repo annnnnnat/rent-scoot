@@ -1,0 +1,67 @@
+.footer
+{
+	color: white;
+	background-color: #1f1f1f;
+	transition: .5s;
+}
+
+i:hover
+{
+	color: #3f51b5;
+}
+
+p
+{
+	margin: 0;
+}
+
+.footer-item{
+}
+
+.footer-item i
+{
+	display: block;
+	font-size: 2.5em;
+	padding-bottom: 15px;
+}
+
+.footer-item-last
+{
+	padding-bottom: 1em;
+	vertical-align: middle;
+	background-color: rgba(88, 0, 0, 0.863);
+}
+
+.footer-item-last i 
+{
+	padding: 10px;
+	text-align: center;
+	font-size: 1.5em;
+}
+
+.footer-image img
+{
+	float:left;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+	height: 70%;
+}
+
+@media only screen and (max-width: 900px) {
+
+	.footer-image img{
+		float: none;
+		display: block;
+		margin-left: auto;
+		width: 70%;
+		height: 100%;
+	}
+	.MuiGrid-grid-xs-2
+	{
+		margin: 1em 0 !important;
+		max-width: 100% !important;
+		flex-basis:100% !important;
+	}
+}

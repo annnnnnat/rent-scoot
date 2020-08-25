@@ -1,0 +1,48 @@
+{
+    "features":[
+        {
+            "type":"Location",
+            "properties":{
+                "Loc_ID":0,
+                "Name":"Железничка",
+                "Address":"",
+                "Description":"Кај таксистите",
+                "Coordinates":[41.991340,21.445175],
+                "PopupCoordinates":[41.991000,21.445475]
+            }
+        },
+        {
+            "type":"Location",
+            "properties":{
+                "Loc_ID":1,
+                "Name":"City Mall",
+                "Address":"",
+                "Description":"Пред Play Cafe",
+                "Coordinates":[42.004129,21.392004],
+                "PopupCoordinates":[42.003829,21.392404]
+            }
+        },
+        {
+            "type":"Location",
+            "properties":{
+                "Loc_ID":2,
+                "Name":"Градски плоштад",
+                "Address":"",
+                "Description":"Кај Аце",
+                "Coordinates":[41.996005,21.430838],
+                "PopupCoordinates":[41.995905,21.431138]
+            }
+        },
+        {
+            "type":"Location",
+            "properties":{
+                "Loc_ID":3,
+                "Name":"Capitol Mall",
+                "Address":"",
+                "Description":"Пред Deja Vu",
+                "Coordinates":[41.985774,21.466149],
+                "PopupCoordinates":[41.985274,21.466449]
+            }
+        }
+    ]
+}

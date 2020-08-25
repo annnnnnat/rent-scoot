@@ -1,0 +1,161 @@
+.header-background
+{
+	background: linear-gradient(90deg,rgba(0,0,0,0.75),rgba(58, 74, 163, 0.3)),
+	url('../../Assets/images/image5.jpg');
+	background-position: bottom;
+	background-repeat: none;
+	background-size: cover;
+	color: white;
+	height: 220px;
+	filter: brightness(.75);
+}
+.header-background:hover
+{
+	filter: brightness(1);
+	transition: .5s;
+}
+.header-background h1
+{
+	font-size: 3em;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 220px;
+	margin: 0;
+}
+.description-heading
+{   
+	color: #383836;
+	font-style: sans-serif;
+	border-bottom: 2px solid rgba(255, 0, 0, .65);
+	padding-bottom: 10px;
+	text-align: left;
+	margin: 0;
+	font-size: 1.8em;
+	font-weight: normal;
+}
+.description-heading:hover
+{
+	color: #3a4aa3;
+	cursor: pointer; 
+}
+
+.description-text
+{
+	color: #383836;
+	margin-top: 15px;
+	text-align: left;
+}
+/* ~~~~~~~ INIT. BTN ~~~~~~~ */
+
+.btn {	
+	text-align: left;
+	padding: 8px 7px 8px 1px;
+	width: 25%;	
+	position: relative;	
+	color: rgba(255, 171, 69, .85);
+	text-transform: uppercase;
+	transition: all 600ms cubic-bezier(0.77, 0, 0.175, 1);	
+	cursor: pointer;
+	user-select: none;
+}
+
+.btn:before, .btn:after {
+	content: '';
+	position: absolute;	
+	transition: inherit;
+	z-index: -1;
+}
+
+.btn:hover {
+	color: var(--def);
+	transition-delay: .6s;
+}
+
+.btn:hover:before {
+	transition-delay: 0s;
+}
+
+.btn:hover:after {
+	background: rgba(255, 171, 69, .85);
+	transition-delay: .4s;
+}
+
+.from-middle:before {
+	top: 0;
+	left: 50%;
+	height: 100%;
+	width: 0;
+	border: 1px solid var(--inv);
+	border-left: 0;
+	border-right: 0;
+}
+
+.from-middle:after {
+	bottom: 0;
+	left: 0;
+	height: 0;
+	width: 100%;
+	background: white;
+}
+
+.from-middle:hover:before {
+	left: 0;
+	width: 100%;
+}
+
+.from-middle:hover:after {
+	top: 0;
+	height: 100%;
+}
+
+
+
+
+.about-images
+{
+	height: 350px;
+	filter: brightness(.6);
+	width: 90%;
+	float: right;
+}
+.about-images:hover
+{
+	transition: .5s;
+	filter: brightness(1);
+}
+
+.MuiBox-root-2
+{
+	margin: 0 !important;
+}
+
+@media only screen and (max-width: 800px) {
+  	.about-images {
+    	display: block;
+    	height: 30vw;
+  	}
+  	.MuiGrid-grid-xs-6
+  	{
+  		max-width: 100%  !important;
+  		flex-basis: 100% !important;
+ 
+  	}
+  	.MuiGrid-grid-xs-4
+  	{
+  		padding: 1em 0;
+  		max-width: 100%  !important;
+  		flex-basis: 100% !important;
+ 	}
+  	.about-images
+  	{
+  		margin: auto;
+  		float: none;
+  		width: 80%;
+  	}
+  	.btn
+  	{
+  		text-align: center;
+  		width: 100%;
+  		margin-bottom: 20px;
+  	}
+}

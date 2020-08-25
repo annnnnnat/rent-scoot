@@ -1,0 +1,57 @@
+.MuiGrid-item {
+  width: 100%;
+  margin: auto !important;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.reservation-form {
+  margin: 1em;
+  background-color: #d3e0e6 !important;
+}
+
+.legend {
+  font-size: 40px;
+  color: #525252;
+  font-weight: 200;
+  width: 60%;
+  margin: auto;
+  border-bottom: 1.5px solid #52a4ba;
+  letter-spacing: 3px;
+  margin-bottom: 1em;
+}
+.custum-button {
+  display: inline-block;
+  padding: 0.46em 1.6em;
+  border: 0.1em solid #52a4ba;
+  margin: 0 0.2em 0.2em 0;
+  border-radius: 0.12em;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  text-shadow: 0 0.04em 0.04em rgba(0, 0, 0, 0.35);
+  text-align: center;
+  transition: all 0.15s;
+  background-color: rgba(0, 0, 0, 0);
+  color: #52a4ba;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-weight: 500;
+  line-height: 1.75;
+  font-size: 17px;
+  cursor: pointer;
+  margin-bottom: 34px;
+  outline: none;
+}
+.custum-button:hover,
+.custum-button:checked {
+  text-shadow: 0 0 2em rgba(255, 255, 255, 1);
+  color: gba(63, 81, 181, 0.5);
+  border-color: #52a4ba;
+  font-size: 18px;
+  border-radius: 15px;
+}
